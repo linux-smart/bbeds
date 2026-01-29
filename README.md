@@ -1,5 +1,5 @@
 # BBEDS - Backward-Built Engineering & Development Standard
-## BCP (Backward Construction Protocol) — Complete Reference
+## BCP (Backward Construction Protocol) - Complete Reference
 
 **Document:** README.md  
 **Version:** 1.0 (Frozen Canonical)  
@@ -64,76 +64,76 @@ Progression is strictly **top‑down** during audits.
 
 ---
 
-## 6. BCP Gates — Canonical Definitions
+## 6. BCP Gates - Canonical Definitions
 
-### BCP‑12 — Definition of Done
+### BCP‑12 - Definition of Done
 **Question:** Is “Done” falsifiable?  
 **Requires:** Done definition, runbook, release accountability.  
 **Failure Means:** The system is draft-only.
 
 ---
 
-### BCP‑11 — Deployment Truth
+### BCP‑11 - Deployment Truth
 **Question:** Can the system be provisioned from zero deterministically?  
 **Requires:** Deployment manifests, no click‑ops, rollback clarity.
 
 ---
 
-### BCP‑10 — Black‑Box Verification
+### BCP‑10 - Black‑Box Verification
 **Question:** Can outcomes be verified without internal knowledge?  
 **Requires:** End‑to‑end or smoke tests validating real behavior.
 
 ---
 
-### BCP‑09 — State & Data Sovereignty
+### BCP‑09 - State & Data Sovereignty
 **Question:** Does the system know what it remembers?  
 **Requires:** Schema/state maps, lifecycle, reconstruction path.
 
 ---
 
-### BCP‑08 — Interface Contract
+### BCP‑08 - Interface Contract
 **Question:** Can the system be spoken to unambiguously?  
 **Requires:** Versioned contracts, deterministic errors.
 
 ---
 
-### BCP‑07 — Logic Decoupling
+### BCP‑07 - Logic Decoupling
 **Question:** Can the brain run without the world attached?  
 **Requires:** Pure logic, side‑effect isolation, injected dependencies.
 
 ---
 
-### BCP‑06 — Frontend Behavior Truth
+### BCP‑06 - Frontend Behavior Truth
 **Question:** Does the UI reflect reality or invent it?  
 **Requires:** State‑to‑UI mapping, replayable frontend behavior.
 
 ---
 
-### BCP‑05 — Core User Flows
+### BCP‑05 - Core User Flows
 **Question:** What happens when users don’t behave perfectly?  
 **Requires:** Flow maps, crisis paths, recovery semantics.
 
 ---
 
-### BCP‑04 — Architectural Lock (ADR Discipline)
+### BCP‑04 - Architectural Lock (ADR Discipline)
 **Question:** Are past decisions remembered and enforced?  
 **Requires:** ADRs with trade‑offs and rejected alternatives.
 
 ---
 
-### BCP‑03 — Requirements & Scope Legitimacy
+### BCP‑03 - Requirements & Scope Legitimacy
 **Question:** What is the system forbidden to become?  
 **Requires:** Constraint manifesto, out‑remembered scope, sunset.
 
 ---
 
-### BCP‑02 — Problem Definition
+### BCP‑02 - Problem Definition
 **Question:** Who is hurting, and how, without naming the solution?  
 **Requires:** Jargon‑free problem statement, evidence of friction.
 
 ---
 
-### BCP‑01 — Intent (Operator Sovereignty)
+### BCP‑01 - Intent (Operator Sovereignty)
 **Question:** Why is this worth maintaining even if no one uses it?  
 **Requires:** Non‑transactional intent and acceptance of burden.
 
