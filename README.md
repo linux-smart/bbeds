@@ -56,11 +56,11 @@ Progression is strictly **top‑down** during audits.
 
 ## 5. Interrogation Rules (Non‑Negotiable)
 
-1. **Binary Answers Only** — YES or NO.
-2. **Artifact‑Backed** — evidence must be a file path or URI.
-3. **Short‑Circuiting** — first CRITICAL FAIL stops the audit.
-4. **Floor Rule** — higher gates do not compensate for lower failures.
-5. **Simulation Allowed** — execution is not required; existence is.
+1. **Binary Answers Only** - YES or NO.
+2. **Artifact‑Backed** - evidence must be a file path or URI.
+3. **Short‑Circuiting** - first CRITICAL FAIL stops the audit.
+4. **Floor Rule** - higher gates do not compensate for lower failures.
+5. **Simulation Allowed** - execution is not required; existence is.
 
 ---
 
