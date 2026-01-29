@@ -1,4 +1,4 @@
-# BBEDS — Backward-Built Engineering & Development Standard
+# BBEDS - Backward-Built Engineering & Development Standard
 ## BCP (Backward Construction Protocol) — Complete Reference
 
 **Document:** README.md  
